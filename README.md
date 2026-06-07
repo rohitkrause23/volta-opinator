@@ -51,10 +51,4 @@ volta-opinator/
 
 Vite + Vercel — sin configuración. Vercel auto-detecta `vite build` y sirve `/dist`.
 
-## Decisiones de marca
-
-- **Champagne sobre onyx, no rojo** — el rojo Porsche era el reflejo obvio; el resto de candidatos lo va a usar
-- **Sora + Inter** — geometría técnica para display, máxima legibilidad para body
-- **VOLTA** — tomado de Alessandro Volta, pionero eléctrico italiano
-- **"Silencio por diseño"** — tagline que alude a EV sin gritar "eco"
 # Prueba-OPINATOR
