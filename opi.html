@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08090c">
+  <meta name="description" content="OPI · VOLTA · Survey post test-drive interactivo">
+  <title>OPI · VOLTA · Test drive feedback</title>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/opi.css">
+</head>
+<body class="opi-page">
+  <a href="index.html" class="back-link">← Volver</a>
+
+  <div class="opi-page__backdrop" aria-hidden="true"></div>
+
+  <main class="opi" aria-label="OPI · Test drive feedback">
+
+    <header class="opi__header">
+      <img class="opi__header-image" src="assets/img/car-night.jpg" alt="" loading="eager">
+
+      <button type="button" class="opi__lang" aria-label="Idioma actual: Español">ES</button>
+
+      <div class="opi__brand">
+        <div class="opi__brand-mark">
+          <svg class="opi__brand-symbol" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M13 2 3 14h7l-1 8 11-14h-7l1-6z" stroke="#c8a876" stroke-width="1.5" stroke-linejoin="round" fill="rgba(200,168,118,0.15)"/>
+          </svg>
+          <span class="opi__brand-word">VOLTA</span>
+        </div>
+        <p class="opi__brand-tagline">— Silencio por diseño —</p>
+      </div>
+    </header>
+
+    <div class="opi__intro">
+      <h1 class="opi__intro-title">Dos minutos que moldean <em>lo que viene.</em></h1>
+      <p class="opi__intro-sub">Tu opinión después del test drive de hoy</p>
+    </div>
+
+    <section class="opi__section">
+      <div class="opi__q">
+        <span class="opi__q-num" aria-hidden="true">01 /</span>
+        <p class="opi__q-text" id="q-recommend">¿Qué tan probable es que recomiendes VOLTA a un amigo?</p>
+      </div>
+
+      <div class="slider" role="slider" aria-labelledby="q-recommend" aria-valuemin="0" aria-valuemax="10">
+        <div class="slider__track" data-slider-track>
+          <div class="slider__fill" data-slider-fill></div>
+          <div class="slider__thumb" data-slider-thumb></div>
+        </div>
+
+        <div class="slider__marks">
+          <button type="button" class="slider__mark" data-slider-mark data-value="0">0</button>
+          <button type="button" class="slider__mark" data-slider-mark data-value="1">1</button>
+          <button type="button" class="slider__mark" data-slider-mark data-value="2">2</button>
+          <button type="button" class="slider__mark" data-slider-mark data-value="3">3</button>
+          <button type="button" class="slider__mark" data-slider-mark data-value="4">4</button>
+          <button type="button" class="slider__mark" data-slider-mark data-value="5">5</button>
+          <button type="button" class="slider__mark" data-slider-mark data-value="6">6</button>
+          <button type="button" class="slider__mark" data-slider-mark data-value="7">7</button>
+          <button type="button" class="slider__mark" data-slider-mark data-value="8">8</button>
+          <button type="button" class="slider__mark" data-slider-mark data-value="9">9</button>
+          <button type="button" class="slider__mark" data-slider-mark data-value="10">10</button>
+        </div>
+
+        <div class="slider__endpoints">
+          <span>Para nada</span>
+          <span>Por supuesto</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="opi__section">
+      <div class="opi__q">
+        <span class="opi__q-num" aria-hidden="true">02 /</span>
+        <p class="opi__q-text" id="q-mood">¿Cómo te hizo sentir nuestro equipo durante tu visita?</p>
+      </div>
+
+      <div class="caritas" role="radiogroup" aria-labelledby="q-mood">
+        <button type="button" class="carita" data-carita data-value="1" aria-label="Mal">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="11" cy="13" r="1.4" fill="currentColor"/>
+            <circle cx="21" cy="13" r="1.4" fill="currentColor"/>
+            <path d="M10 22Q16 17 22 22" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+          </svg>
+        </button>
+        <button type="button" class="carita" data-carita data-value="2" aria-label="Regular bajo">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="11" cy="13" r="1.4" fill="currentColor"/>
+            <circle cx="21" cy="13" r="1.4" fill="currentColor"/>
+            <path d="M11 21Q16 18 21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+          </svg>
+        </button>
+        <button type="button" class="carita" data-carita data-value="3" aria-label="Regular">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="11" cy="13" r="1.4" fill="currentColor"/>
+            <circle cx="21" cy="13" r="1.4" fill="currentColor"/>
+            <line x1="11" y1="20" x2="21" y2="20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <button type="button" class="carita" data-carita data-value="4" aria-label="Bien">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="11" cy="13" r="1.4" fill="currentColor"/>
+            <circle cx="21" cy="13" r="1.4" fill="currentColor"/>
+            <path d="M11 19Q16 23 21 19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+          </svg>
+        </button>
+        <button type="button" class="carita" data-carita data-value="5" aria-label="Genial">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="11" cy="13" r="1.4" fill="currentColor"/>
+            <circle cx="21" cy="13" r="1.4" fill="currentColor"/>
+            <path d="M10 18Q16 25 22 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="caritas__labels" aria-hidden="true">
+        <span>Mal</span><span></span><span>Regular</span><span></span><span>Genial</span>
+      </div>
+    </section>
+
+    <section class="opi__section">
+      <div class="opi__q">
+        <span class="opi__q-num" aria-hidden="true">03 /</span>
+        <p class="opi__q-text" id="q-aspect">¿Qué aspecto de VOLTA te impresionó más?</p>
+      </div>
+
+      <div class="cards" role="group" aria-labelledby="q-aspect">
+        <button type="button" class="card" data-card data-value="rendimiento">
+          <span class="card__check" aria-hidden="true">✓</span>
+          <span class="card__thumb" style="background-image: url('assets/img/car-bg.jpg'); background-position: center 30%;"></span>
+          <span class="card__sub">— 01</span>
+          <span class="card__label">Rendimiento</span>
+        </button>
+        <button type="button" class="card" data-card data-value="acabado">
+          <span class="card__check" aria-hidden="true">✓</span>
+          <span class="card__thumb" style="background-image: url('assets/img/wheel.jpg');"></span>
+          <span class="card__sub">— 02</span>
+          <span class="card__label">Acabado</span>
+        </button>
+        <button type="button" class="card" data-card data-value="diseno">
+          <span class="card__check" aria-hidden="true">✓</span>
+          <span class="card__thumb" style="background-image: url('assets/img/interior.jpg');"></span>
+          <span class="card__sub">— 03</span>
+          <span class="card__label">Diseño</span>
+        </button>
+        <button type="button" class="card" data-card data-value="tecnologia">
+          <span class="card__check" aria-hidden="true">✓</span>
+          <span class="card__thumb" style="background-image: url('assets/img/dashboard.jpg');"></span>
+          <span class="card__sub">— 04</span>
+          <span class="card__label">Tecnología</span>
+        </button>
+      </div>
+    </section>
+
+    <footer class="opi__footer">
+      <button type="button" class="opi__submit" data-opi-submit aria-disabled="true">
+        <span>Enviar</span>
+        <span aria-hidden="true">→</span>
+      </button>
+      <p class="opi__credit">powered by <b>OPINATOR</b></p>
+    </footer>
+
+  </main>
+
+  <div class="toast" role="status" data-opi-toast>
+    Gracias por tu opinión, <b>VOLTA</b> te escucha.
+  </div>
+
+  <script type="module" src="assets/js/opi.js"></script>
+</body>
+</html>

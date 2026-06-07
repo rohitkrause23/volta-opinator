@@ -1,0 +1,62 @@
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.brand__symbol {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.brand__word {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.375rem;
+  letter-spacing: 0.45em;
+  color: var(--champagne);
+}
+
+.meta {
+  font-weight: 300;
+  font-size: 0.6875rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--mist);
+}
+
+.meta--snow {
+  color: var(--snow);
+  font-weight: 500;
+}
+
+.back-link {
+  position: fixed;
+  inset-block-start: 1.5rem;
+  inset-inline-start: 1.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--mist);
+  transition: color var(--transition);
+  z-index: 10;
+}
+
+.back-link:hover {
+  color: var(--champagne);
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--champagne);
+}
+
+.eyebrow--bracketed::before {
+  content: "— ";
+}
+
+.eyebrow--bracketed::after {
+  content: " —";
+}

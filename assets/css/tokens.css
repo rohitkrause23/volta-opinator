@@ -1,0 +1,27 @@
+:root {
+  --onyx: #08090c;
+  --carbon: #13141a;
+  --smoke: #2a2b33;
+  --champagne: #c8a876;
+  --champagne-soft: rgb(200 168 118 / 0.12);
+  --champagne-line: rgb(200 168 118 / 0.4);
+  --ice: #6fb8ff;
+  --snow: #f4f4f6;
+  --mist: #8b8b95;
+  --hairline: rgb(255 255 255 / 0.08);
+  --hairline-strong: rgb(255 255 255 / 0.14);
+
+  --font-display: "Sora", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --transition: 0.3s var(--ease);
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 100px;
+
+  --shadow-lg: 0 30px 80px rgb(0 0 0 / 0.6);
+  --shadow-glow: inset 0 1px 0 rgb(255 255 255 / 0.06);
+}
