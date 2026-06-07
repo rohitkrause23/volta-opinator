@@ -196,66 +196,6 @@
   margin-block-start: 2.25rem;
 }
 
-.type-scale {
-  display: grid;
-  gap: 2rem;
-}
-
-.type-row {
-  display: grid;
-  grid-template-columns: 12.5rem 1fr;
-  gap: 1.5rem;
-  align-items: baseline;
-  padding-block-end: 1.5rem;
-  border-block-end: 1px solid var(--hairline);
-}
-
-.type-row__meta {
-  font-family: var(--font-display);
-  font-size: 0.75rem;
-  letter-spacing: 0.2em;
-  color: var(--mist);
-}
-
-.type-row__meta b {
-  color: var(--snow);
-  font-weight: 500;
-}
-
-.type-sample--display {
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 3.5rem;
-  line-height: 1;
-  letter-spacing: -0.025em;
-}
-
-.type-sample--h1 {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 1.1;
-}
-
-.type-sample--h2 {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.375rem;
-  line-height: 1.2;
-}
-
-.type-sample--body {
-  font-size: 1rem;
-}
-
-.type-sample--micro {
-  font-size: 0.6875rem;
-  font-weight: 300;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--mist);
-}
-
 .component-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -291,42 +231,10 @@
   transform: translateY(-2px);
 }
 
-.closer {
-  margin-block-start: 5rem;
-  padding: 3rem;
-  background: rgb(20 21 26 / 0.5);
-  border: 1px solid var(--hairline);
-  border-inline-start: 2px solid var(--champagne);
-  border-radius: 4px;
-}
-
-.closer__quote {
-  font-family: var(--font-display);
-  font-weight: 300;
-  font-size: 1.5rem;
-  line-height: 1.4;
-  letter-spacing: -0.01em;
-}
-
-.closer__quote b {
-  color: var(--champagne);
-  font-weight: 500;
-}
-
-.closer__signature {
-  margin-block-start: 1.25rem;
-  font-size: 0.75rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--mist);
-}
-
 @media (width <= 700px) {
   .sistema-page { padding: 5rem 1.5rem 5rem; }
   .sistema-section__head { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
   .sistema-section__desc { margin-inline-start: 0; text-align: start; }
-  .type-row { grid-template-columns: 1fr; }
-  .type-sample--display { font-size: 2.25rem; }
   .component-grid { grid-template-columns: 1fr; }
   .editor__body { padding: 1.25rem; font-size: 0.75rem; }
 }

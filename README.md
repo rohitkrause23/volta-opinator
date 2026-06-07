@@ -50,5 +50,3 @@ volta-opinator/
 ## Deploy
 
 Vite + Vercel — sin configuración. Vercel auto-detecta `vite build` y sirve `/dist`.
-
-# Prueba-OPINATOR
